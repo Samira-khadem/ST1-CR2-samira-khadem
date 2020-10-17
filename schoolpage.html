@@ -15,8 +15,8 @@
         <header>
             <nav>
                 <a href="schoolpage.html"> home </a> |
-                <a href=""> about </a> |
-                <a href=""> contact </a>
+                <a href="schoolpage.html"> about </a> |
+                <a href="schoolpage.html"> contact </a>
             </nav>
         </header>
         <br>
@@ -43,15 +43,15 @@
         </footer>
 
         <script>
-            var values = document.getElementById('value1').value;
+            var numbers = document.getElementById('value1').value;
             function timesTable() {
-                var values = document.getElementById('value1').value;
+                var numbers = document.getElementById('value1').value;
 
                 var showTables = '';
                 for (var i = 1; i < 10; i++) {
-                    showTables += values + " x " + i + " = " + values * i + "<br>";
+                    showTables += numbers + " x " + i + " = " + numbers * i + "<br>";
                 }
-                var p_tables = document.getElementById('tables').innerHTML = showTables;
+                var partables = document.getElementById('tables').innerHTML = showTables;
             }
         </script>
 
